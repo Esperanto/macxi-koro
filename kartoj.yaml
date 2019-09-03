@@ -1,0 +1,174 @@
+---
+- titolo: Pomplantejo
+  kosto: 3
+  kvanto: 6
+  aktivita_de: [10]
+  simbolo: "svg/greno.svg"
+  bildo: ".svg"
+  koloro: "#0000AA"
+  subkoloro: "#000077"
+  aktivita_de_cxiuj: True
+  svg: svg/.svg
+  teksto: Ricevu 3 moneroj de la banko.
+- titolo: Minejo
+  kosto: 6
+  kvanto: 6
+  aktivita_de: [9]
+  simbolo: "svg/dentrado.svg"
+  bildo: ".svg"
+  koloro: "#0000AA"
+  subkoloro: "#000077"
+  aktivita_de_cxiuj: True
+  svg: svg/.svg
+  teksto: Ricevu 5 moneroj de la banko.
+- titolo: Farmo
+  kosto: 1
+  kvanto: 7
+  aktivita_de: [2]
+  simbolo: "svg/bovo.svg"
+  bildo: "svg/.svg"
+  koloro: "#0000AA"
+  subkoloro: "#000077"
+  aktivita_de_cxiuj: True
+  svg: svg/.svg
+  teksto: Ricevu 1 moneroj de la banko.
+- titolo: Grenkampo
+  kosto: 1
+  kvanto: 8
+  aktivita_de: [1]
+  simbolo: "svg/greno.svg"
+  bildo: ".svg"
+  koloro: "#0000AA"
+  subkoloro: "#000077"
+  aktivita_de_cxiuj: True
+  teksto: Ricevu 1 moneroj de la banko.
+- titolo: Grenkampo
+  kosto: 0
+  kvanto: 4
+  aktivita_de: [1]
+  simbolo: "svg/greno.svg"
+  bildo: ".svg"
+  koloro: "#0000AA"
+  subkoloro: "#000077"
+  aktivita_de_cxiuj: True
+  teksto: Ricevu 1 moneroj de la banko.
+- titolo: Arbaro
+  kosto: 3
+  kvanto: 6
+  aktivita_de: [5]
+  simbolo: "svg/dentrado.svg"
+  bildo: "svg/.svg"
+  koloro: "#0000AA"
+  subkoloro: "#000077"
+  aktivita_de_cxiuj: True
+  teksto: Ricevu 1 moneroj de la banko.
+- titolo: Kafejo
+  kosto: 2
+  kvanto: 6
+  aktivita_de: [10]
+  simbolo: "svg/kafo.svg"
+  bildo: "svg/.svg"
+  koloro: "#AA0000"
+  subkoloro: "#770000"
+  aktivita_de_cxiuj: True
+  teksto: Ricevu 1 moneroj de la ludanto, kiu ĵetkubumis la 3.
+- titolo: Familia restoracio
+  kosto: 3
+  kvanto: 6
+  aktivita_de: [9, 10]
+  simbolo: "svg/kafo.svg"
+  bildo: "svg/.svg"
+  koloro: "#AA0000"
+  subkoloro: "#770000"
+  aktivita_de_cxiuj: True
+  teksto: Ricevu 2 moneroj de la ludanto, kiu ĵetkubumis la 9 aŭ 10.
+- titolo: Bakejo
+  kosto: 1
+  kvanto: 6
+  aktivita_de: [2, 3]
+  simbolo: "svg/cxapelo.svg"
+  bildo: "svg/.svg"
+  koloro: "#00AA00"
+  subkoloro: "#007700"
+  aktivita_de_cxiuj: False
+  teksto: Ricevu 1 moneroj de la banko.
+- titolo: Bakejo
+  kosto: 0
+  kvanto: 4
+  aktivita_de: [2, 3]
+  simbolo: "svg/cxapelo.svg"
+  bildo: "svg/.svg"
+  koloro: "#00AA00"
+  subkoloro: "#007700"
+  aktivita_de_cxiuj: False
+  teksto: Ricevu 1 moneroj de la banko.
+- titolo: Meblofabriko
+  kosto: 3
+  kvanto: 6
+  aktivita_de: [8]
+  simbolo: "svg/fabriko.svg"
+  bildo: "svg/.svg"
+  koloro: "#00AA00"
+  subkoloro: "#007700"
+  aktivita_de_cxiuj: False
+  teksto: Ricevu 3 moneroj de la banko, por ĉiu de viaj {{dentrado}} kompanioj.
+- titolo: Vendejeto
+  kosto: 2
+  kvanto: 6
+  aktivita_de: [4]
+  simbolo: "svg/cxapelo.svg"
+  bildo: "svg/.svg"
+  koloro: "#00AA00"
+  subkoloro: "#007700"
+  aktivita_de_cxiuj: False
+  teksto: Ricevu 3 moneroj de la banko.
+- titolo: Laktouzino
+  kosto: 5
+  kvanto: 6
+  aktivita_de: [7]
+  simbolo: "svg/fabriko.svg"
+  bildo: "svg/.svg"
+  koloro: "#00AA00"
+  subkoloro: "#007700"
+  aktivita_de_cxiuj: False
+  teksto: Ricevu 3 moneroj de la banko, por ĉiu de viaj {{bovo}} kompanioj.
+- titolo: Bazarhalo
+  kosto: 2
+  kvanto: 6
+  aktivita_de: [11, 12]
+  simbolo: "svg/circajxo.svg"
+  bildo: "svg/.svg"
+  koloro: "#00AA00"
+  subkoloro: "#007700"
+  aktivita_de_cxiuj: False
+  teksto: Ricevu 3 moneroj de la banko, por ĉiu de viaj {{greno}} kompanioj.
+- titolo: Bazarhalo
+  kosto: 6
+  kvanto: 4
+  aktivita_de: [6]
+  simbolo: "svg/turo.svg"
+  bildo: "svg/.svg"
+  koloro: "#9A2EFE"
+  subkoloro: "#7A1EAE"
+  aktivita_de_cxiuj: False
+  teksto: Ricevu po 2 moneroj de ĉiuj ludantoj.
+- titolo: Bazarhalo
+  kosto: 7
+  kvanto: 4
+  aktivita_de: [6]
+  simbolo: "svg/turo.svg"
+  bildo: "svg/.svg"
+  koloro: "#9A2EFE"
+  subkoloro: "#7A1EAE"
+  aktivita_de_cxiuj: False
+  teksto: Ricevu 5 moneroj de ajna ludanto de via elekto.
+- titolo: Bazarhalo
+  kosto: 8
+  kvanto: 4
+  aktivita_de: [6]
+  simbolo: "svg/turo.svg"
+  bildo: "svg/.svg"
+  koloro: "#9A2EFE"
+  subkoloro: "#7A1EAE"
+  aktivita_de_cxiuj: False
+  teksto: Ŝangu unu de viaj kompanioj kun un de alia ludanto. (Neniaj {{turo}} firmaoj)
