@@ -13,6 +13,7 @@
     {% for k, offset in kartoj_offsets %}
     {% set oloop=loop %}
     <circle transform="scale(.5) translate({{ (offset[0] + 7) * 2.0 }}, {{ (offset[1] + 18) * 2.0 }}) scale(.52)" r="10" stroke="{{k["subkoloro"]}}" stroke-width="1.5" fill="{{k["koloro"]}}" />
+    <image height="12" width="12" transform="scale(.5) translate({{ (offset[0] + 5.5) * 2.0 }}, {{ (offset[1] + 16.5) * 2.0 }}) scale(.52)" xlink:href="{{k["simbolo"]}}" />
     <g transform="scale(.5) translate({{ offset[0] * 2.0 }}, {{ offset[1] * 2.0 }}) scale(.52)">
     <g style="fill:#808080;stroke:#000000;stroke-width:0.75;" id="g6" transform="matrix(0.01747455,0,0,-0.01747455,66.021897,-3751.3974)">
       <path id="path859-5" d="m -3667.7485,-215155.31 v -2620.62 c 4066.67074,952.39 8223.6723,1121.92 12529.6872,0 v 2606.51 z"
