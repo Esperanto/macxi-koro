@@ -13,7 +13,7 @@
     {% for k, offset in kartoj_offsets %}
     {% set oloop=loop %}
     <circle transform="scale(.5) translate({{ (offset[0] + 7) * 2.0 }}, {{ (offset[1] + 18) * 2.0 }}) scale(.52)" r="10" stroke="{{k["subkoloro"]}}" stroke-width="1.5" fill="{{k["koloro"]}}" />
-    <image height="12" width="12" transform="scale(.5) translate({{ (offset[0] + 5.5) * 2.0 }}, {{ (offset[1] + 16.5) * 2.0 }}) scale(.52)" xlink:href="{{k["simbolo"]}}" />
+    <image height="14" width="14" transform="scale(.5) translate({{ (offset[0] + 5.2) * 2.0 }}, {{ (offset[1] + 16.3) * 2.0 }}) scale(.52)" xlink:href="{{k["simbolo"]}}" />
     <g transform="scale(.5) translate({{ offset[0] * 2.0 }}, {{ offset[1] * 2.0 }}) scale(.52)">
     <g style="fill:#808080;stroke:#000000;stroke-width:0.75;" id="g6" transform="matrix(0.01747455,0,0,-0.01747455,66.021897,-3751.3974)">
       <path id="path859-5" d="m -3667.7485,-215155.31 v -2620.62 c 4066.67074,952.39 8223.6723,1121.92 12529.6872,0 v 2606.51 z"
@@ -38,30 +38,39 @@
           </tspan>
         {% endfor %}
       </text>
+      {% if k["aktivita_de_cxiuj"] != "None" %}
       <image width="2000" height="2000" transform="scale(1,-1)" y="229750" x="-3500" xlink:href="meeple{% if k["aktivita_de_cxiuj"] %}s{% endif %}.svg" />
-      <image width="2000" height="2000" transform="scale(1,-1)" y="232000" x="-3500" xlink:href="crown-coin.svg" />
+      {% endif %}
+      <image width="2000" height="2000" transform="scale(1,-1)" y="231875" x="-3500" xlink:href="crown-coin.svg" />
+      <text transform="scale(1,-1)" y="231875" x="-3500"
+          style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;">
+          <tspan y="233100" x="-{{ 2780 - (0 if k["kosto"]<10 else -260) }}" style="fill:#ffcc00; font-size:800px;">
+             {{ k["kosto"] }}
+          </tspan>
+      </text>
       <g transform="matrix(0.9999942,0,0,0.9999942,-0.02193192,-227511.35)" id="g1011">
-        {% if k["aktivita_de"]|length == 2 %}
-        <rect style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:59.0968132;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+        {% if not k["aktivita_de"] %}
+        {% elif k["aktivita_de"]|length == 2 %}
+        <rect style="fill:none;fill-opacity:1;stroke:#fff;stroke-width:59.0968132;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
            id="rect1002" width="1266.0227" height="1266.0227" x="1314.4121" y="-12442.011" transform="scale(1,-1)" rx="57.226433" ry="57.226433" />
-        <text style="font-style:normal;font-weight:normal;font-size:870.89086914px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:36.28712082"
+        <text style="font-style:normal;font-weight:normal;font-size:870.89086914px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#fff;fill-opacity:1;stroke:none;stroke-width:36.28712082"
            x="1367.1711" y="-11526.933" id="text1006" transform="scale(1,-1)">
            <tspan id="tspan1004" x="{{2067 - ( 400 if k["aktivita_de"][0]>9 else 200 )}}" y="-11526.933" style="stroke-width:36.28712082">
               {{k["aktivita_de"][0]}}
            </tspan>
         </text>
-        <rect style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:59.0968132;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+        <rect style="fill:none;fill-opacity:1;stroke:#fff;stroke-width:59.0968132;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
            id="rect1002" width="1266.0227" height="1266.0227" x="3114.4121" y="-12442.011" transform="scale(1,-1)" rx="57.226433" ry="57.226433" />
-        <text style="font-style:normal;font-weight:normal;font-size:870.89086914px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:36.28712082"
+        <text style="font-style:normal;font-weight:normal;font-size:870.89086914px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#fff;fill-opacity:1;stroke:none;stroke-width:36.28712082"
            x="3467.1711" y="-11526.933" id="text1006" transform="scale(1,-1)">
            <tspan id="tspan1004" x="3167.1711" y="-11526.933" style="stroke-width:36.28712082">
               {{k["aktivita_de"][1]}}
            </tspan>
         </text>
         {% else %}
-        <rect style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:59.0968132;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+        <rect style="fill:none;fill-opacity:1;stroke:#fff;stroke-width:59.0968132;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
            id="rect1002" width="1266.0227" height="1266.0227" x="2214.4121" y="-12442.011" transform="scale(1,-1)" rx="57.226433" ry="57.226433" />
-        <text style="font-style:normal;font-weight:normal;font-size:870.89086914px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:36.28712082"
+        <text style="font-style:normal;font-weight:normal;font-size:870.89086914px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#fff;fill-opacity:1;stroke:none;stroke-width:36.28712082"
            x="2567.1711" y="-11526.933" id="text1006" transform="scale(1,-1)">
            <tspan id="tspan1004" x="2567.1711" y="-11526.933" style="stroke-width:36.28712082">
               {{k["aktivita_de"][0]}}
@@ -71,6 +80,7 @@
       </g>
     </g>
     </g>
+    <image height="120" width="120" transform="scale(.5) translate({{ (offset[0] + 14) * 2.0 }}, {{ (offset[1] + 30) * 2.0 }}) scale(.52)" xlink:href="{{k["bildo"]}}" />
 {% endfor %}
 </g>
 </svg>

@@ -41,7 +41,7 @@
      id="namedview10"
      showgrid="false"
      inkscape:zoom="1.3037281"
-     inkscape:cx="204.68676"
+     inkscape:cx="49.362962"
      inkscape:cy="322.32771"
      inkscape:window-x="0"
      inkscape:window-y="0"
@@ -218,20 +218,7 @@
        d="m 437.27761,191.79939 -3.35511,-5.74385 6.00894,-3.92976 c 3.30491,-2.16137 6.41207,-3.68061 6.9048,-3.37608 0.49273,0.30452 2.32765,3.39001 4.0776,6.85664 l 3.18173,6.30296 -6.3247,2.83836 c -3.47858,1.56109 -6.50772,2.82873 -6.73142,2.81696 -0.22371,-0.0118 -1.91653,-2.60611 -3.76184,-5.76523 z"
        id="path881"
        inkscape:connector-curvature="0" />
-    <flowRoot
-       xml:space="preserve"
-       id="flowRoot883"
-       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Italic';letter-spacing:0px;word-spacing:0px;fill:#ffcc00;fill-opacity:1;stroke:none"
-       transform="matrix(9.4939057,0,0,9.4939057,-1823.9864,-1476.7001)"><flowRegion
-         id="flowRegion885"
-         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Italic';fill:#ffcc00"><rect
-           id="rect887"
-           width="106.30508"
-           height="144.27118"
-           x="211.52542"
-           y="167.05084"
-           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Italic';fill:#ffcc00" /></flowRegion><flowPara
-         id="flowPara889">1</flowPara></flowRoot>    <path
+    <path
        style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.25887299;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        d="m 47.854462,358.59314 c -0.201335,-0.24796 -0.816159,-0.99915 -1.366275,-1.66932 -0.550115,-0.67017 -1.00021,-1.24243 -1.00021,-1.27168 0,-0.0293 0.156278,0.0121 0.347285,0.0919 0.807027,0.3372 1.624284,0.0254 2.121596,-0.80944 l 0.311607,-0.52309 v 2.32082 c 0,1.27645 -0.01079,2.31875 -0.02397,2.31622 -0.01318,-0.003 -0.188699,-0.20747 -0.390033,-0.45542 z"
        id="path891"
