@@ -8,7 +8,6 @@
   koloro: "#4f92b2"
   subkoloro: "#62bfd2"
   aktivita_de_cxiuj: True
-  svg: .svg
   teksto: Ricevu 3 monerojn de la banko.
 - titolo: Minejo
   kosto: 6
@@ -19,7 +18,6 @@
   koloro: "#4f92b2"
   subkoloro: "#62bfd2"
   aktivita_de_cxiuj: True
-  svg: .svg
   teksto: Ricevu 5 moneroj de la banko.
 - titolo: Farmo
   kosto: 1
@@ -30,7 +28,6 @@
   koloro: "#4f92b2"
   subkoloro: "#62bfd2"
   aktivita_de_cxiuj: True
-  svg: .svg
   teksto: Ricevu 1 moneron de la banko.
 - titolo: Grenkampo
   kosto: 1
