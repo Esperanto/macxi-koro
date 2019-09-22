@@ -9,7 +9,7 @@
   subkoloro: "#62bfd2"
   aktivita_de_cxiuj: True
   svg: .svg
-  teksto: Ricevu 3 moneroj de la banko.
+  teksto: Ricevu 3 monerojn de la banko.
 - titolo: Minejo
   kosto: 6
   kvanto: 6
@@ -31,7 +31,7 @@
   subkoloro: "#62bfd2"
   aktivita_de_cxiuj: True
   svg: .svg
-  teksto: Ricevu 1 moneroj de la banko.
+  teksto: Ricevu 1 moneron de la banko.
 - titolo: Grenkampo
   kosto: 1
   kvanto: 8
@@ -41,7 +41,7 @@
   koloro: "#4f92b2"
   subkoloro: "#62bfd2"
   aktivita_de_cxiuj: True
-  teksto: Ricevu 1 moneroj de la banko.
+  teksto: Ricevu 1 moneron de la banko.
 - titolo: Grenkampo
   kosto: 0
   kvanto: 4
@@ -51,7 +51,7 @@
   koloro: "#4f92b2"
   subkoloro: "#62bfd2"
   aktivita_de_cxiuj: True
-  teksto: Ricevu 1 moneroj de la banko.
+  teksto: Ricevu 1 moneron de la banko.
 - titolo: Arbaro
   kosto: 3
   kvanto: 6
@@ -61,17 +61,17 @@
   koloro: "#4f92b2"
   subkoloro: "#62bfd2"
   aktivita_de_cxiuj: True
-  teksto: Ricevu 1 moneroj de la banko.
+  teksto: Ricevu 1 moneron de la banko.
 - titolo: Kafejo
   kosto: 2
   kvanto: 6
-  aktivita_de: [10]
+  aktivita_de: [3]
   simbolo: "kafo.svg"
   bildo: "coffee.svg"
   koloro: "#b75842"
   subkoloro: "#c98d68"
   aktivita_de_cxiuj: True
-  teksto: Ricevu 1 moneroj de la ludanto, kiu ĵetkubumis la 3.
+  teksto: Ricevu 1 moneron de la ludanto, kiu ĵetkubumis la 3.
 - titolo: Familia restoracio
   kosto: 3
   kvanto: 6
@@ -81,7 +81,7 @@
   koloro: "#b75842"
   subkoloro: "#c98d68"
   aktivita_de_cxiuj: True
-  teksto: Ricevu 2 moneroj de la ludanto, kiu ĵetkubumis la 9 aŭ 10.
+  teksto: Ricevu 2 monerojn de la ludanto, kiu ĵetkubumis la 9 aŭ 10.
 - titolo: Bakejo
   kosto: 1
   kvanto: 6
@@ -91,7 +91,7 @@
   koloro: "#588d5f"
   subkoloro: "#7bbd8f"
   aktivita_de_cxiuj: False
-  teksto: Ricevu 1 moneroj de la banko.
+  teksto: Ricevu 1 moneron de la banko.
 - titolo: Bakejo
   kosto: 0
   kvanto: 4
@@ -101,7 +101,7 @@
   koloro: "#588d5f"
   subkoloro: "#7bbd8f"
   aktivita_de_cxiuj: False
-  teksto: Ricevu 1 moneroj de la banko.
+  teksto: Ricevu 1 moneron de la banko.
 - titolo: Meblofabriko
   kosto: 3
   kvanto: 6
@@ -111,7 +111,7 @@
   koloro: "#588d5f"
   subkoloro: "#7bbd8f"
   aktivita_de_cxiuj: False
-  teksto: Ricevu 3 moneroj de la banko, por ĉiu de viaj {{dentrado}} kompanioj.
+  teksto: Ricevu 3 monerojn de la banko, por ĉiu de viaj {{dentrado}} kompanioj.
 - titolo: Vendejeto
   kosto: 2
   kvanto: 6
@@ -121,7 +121,7 @@
   koloro: "#588d5f"
   subkoloro: "#7bbd8f"
   aktivita_de_cxiuj: False
-  teksto: Ricevu 3 moneroj de la banko.
+  teksto: Ricevu 3 monerojn de la banko.
 - titolo: Laktouzino
   kosto: 5
   kvanto: 6
@@ -131,7 +131,7 @@
   koloro: "#588d5f"
   subkoloro: "#7bbd8f"
   aktivita_de_cxiuj: False
-  teksto: Ricevu 3 moneroj de la banko, por ĉiu de viaj {{bovo}} kompanioj.
+  teksto: Ricevu 3 monerojn de la banko, por ĉiu de viaj {{bovo}} kompanioj.
 - titolo: Bazarhalo
   kosto: 2
   kvanto: 6
@@ -141,7 +141,7 @@
   koloro: "#588d5f"
   subkoloro: "#7bbd8f"
   aktivita_de_cxiuj: False
-  teksto: Ricevu 3 moneroj de la banko, por ĉiu de viaj {{greno}} kompanioj.
+  teksto: Ricevu 3 monerojn de la banko, por ĉiu de viaj {{greno}} kompanioj.
 - titolo: Stadiono
   kosto: 6
   kvanto: 4
@@ -191,7 +191,7 @@
   koloro: "#913230"
   subkoloro: "#a67564"
   aktivita_de_cxiuj: None
-  teksto: Vi ricevas unu plian moneron por viaj {{Kafejo}} kaj {{Bakejo}} firmaoj.
+  teksto: Vi ricevas unu plian moneron por viaj {{kafejo}} kaj {{bakejo}} firmaoj.
 - titolo: Amuzparko
   kosto: 16
   kvanto: 4
